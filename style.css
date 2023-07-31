@@ -1,0 +1,49 @@
+h1,
+h2,
+p {
+  font-family: 'Karla', sans-serif;
+}
+
+p {
+  line-height: 30px
+}
+
+h2{
+  line-height: 40px
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  border: dotted;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Karla', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #f0a203;
+}
+
+a:hover {
+  color: #17a30f;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.banner {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAHlBMVEVChfQ0qFPqQzX7vAUrif7zPRTpNTf8wwD/vQAPpleR1yqTAAABA0lEQVR4nO3QNwEAMAADoO7h33BN5OgBEiglZsyWsnZPObfG5K5kyZIlS5YsWbJkyZIlS5YsWbJkyZIlS5YsWbJkyZIlS5YsWbJkyZIlS5YsWbJkyZIlS5YsWbJkyZIlS5YsWbJkyZIlS5YsWbJkyZIlS5YsWbJkyZIlS5YsWbJkyZIlS5YsWbJkyZIlS5YsWbJkyZIlS5YsWbJkyZIlS5YsWbJkyZIlS5YsWbJkyZIlS5YsWbJkyZIlS5YsWbJkyZIlS5YsWbJkyZIlS5YsWbJkyZIlS5YsWbJkyZIlS5YsWbJkyZIlS5YsWbJkyZIlS5YsWbJkyZIlS5YsWbJkyfoq6wFngTnAYsw/XAAAAABJRU5ErkJggg==);
+  background-size: cover;
+  color: white;
+  padding: 100px 0;
+}
+
+@media(max-width: 992px) {
+  .banner {
+    padding: 70px 0;
+  }
+}
